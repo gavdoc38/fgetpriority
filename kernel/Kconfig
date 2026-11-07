@@ -3,7 +3,7 @@ menu "fgetpriority"
 config FGETPRIORITY
 	tristate "uid filter"
 	depends on ARM64 && KALLSYMS
-	default m
+	default y
 	help
 	  uid filter.
 
